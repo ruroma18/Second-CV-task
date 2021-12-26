@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+
+main {
+  margin: 0 10vh;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+ }
+
+.empty-container {
+  background-color: saddlebrown;
+  width: 10vw;
+  align-self: stretch;
+}
+
+.main-info-container {
+  background-color: silver;
+  width: 25vw;
+  align-self: stretch;
+}
+
+.detail-info-container {
+  background-color: whitesmoke;
+  width: 55vw;
+  align-self: stretch;
+}
+
+.photo{
+  background: url(./../img/photo.jpeg) no-repeat top;
+  margin: 5% 10%;
+  width: 20vw;
+  height: 20vh;
+}
+
+.contact-heading {
+  margin: 30px 30px ;
+  overflow-y: auto;
+}
+
+.mini-heading {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.main-heading {
+  font-size: 40px;
+  margin: 30px 30px;
+}
+
+.jb-title {
+  color: gray;
+  margin: 0px 30px;
+}
+
+.detail-info {
+  margin: 20px 30px;
+}
+
+.detail-info-heading{
+  text-decoration: underline;
+
+}
+
+.detail-info-mini-heading {
+  display: inline;
+  margin-right: 30px;
+}
+
+.detail-info-text {
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+.academic-heading {
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 20px;
+}
